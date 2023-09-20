@@ -1,10 +1,12 @@
 /* styles.css */
 #discount{
     background-color: #98a88d;
+    color: white;
     display: flex;
     justify-content: center;
     top: 0%;
     height: 10%;
+    width: 100%;
 }
 
 /* MAIN css */
@@ -95,4 +97,67 @@ button span{
     height: 30%;
     background-color: black;
     display: flex;
+}
+
+@media (max-width: 600px) {
+    #discount{
+        font-size: 2vw;
+    }
+    #EAA{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90vw;
+        justify-content: center;
+        margin-right: 10vw;
+        margin: auto;
+    }
+    .about{
+        width: 80vw;
+        text-align: center;
+        margin: auto;
+    }
+    #Whey{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    #PPP{
+        display: flex;
+        width: 90vw;
+        flex-direction: column-reverse;
+        margin: auto;
+        gap: 10px;
+    }
+    #ImBoost{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin: auto;
+    }
+    #HCoach{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        background-color: #98a88d;
+        width: 90vw;
+        margin: auto;
+    }
+    .image{
+        width: 95%;
+        margin: auto;
+    }
+    .img-left{
+        width: 95%;
+        margin: auto;
+    }
+    #Pers{
+        width: 90vw;
+        margin: auto;
+    }
+    #Pers .about-right{
+        width: 100%;
+        text-align: center;
+    }
+
 }
